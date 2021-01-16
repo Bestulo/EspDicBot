@@ -1,0 +1,24 @@
+{
+  "deno.enable": true,
+  "deno.import_intellisense_origins": {
+    "https://deno.land/x/fae@v0.6.2/mod.ts": true,
+    "https://deno.land": true
+  },
+  "deno.lint": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "punctuation.terminator",
+        "settings": {
+          "foreground": "#444444"
+        }
+      }
+    ]
+  }
+}

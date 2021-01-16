@@ -1,0 +1,9 @@
+Hello! I am *EspDicBot*. With me, you can search the Esperanto-English dictionary *EspDic*.
+
+To search from English to Esperanto, use the command \`\/eneo\` + \`word\`. For example:
+\/eneo juggle
+
+To search from Esperanto to English, use the command \`\/eoen\` + \`word\`. For example:
+\/eoen pioĉo
+
+If you find any bug, error or have any feedback or suggestion, please contact @Bestulo.

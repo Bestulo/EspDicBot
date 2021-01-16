@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script src="./xigi.js" defer></script>
+  </head>
+  <body>
+<div class="container">
+<div x-data class="is-flex is-flex-direction-column">
+  <h1 class="title mt-5 has-text-centered">↓ Aŭtomata mal-x-igo por via teksto ↓</h1>
+  <textarea class="textarea mt-1" x-ref="fromSpecial" @keyup="$refs.fromSpecial.value = toSpecial($refs.fromSpecial.value)">-skribu cxi tie-</textarea>
+
+  <h1 class="title mt-5 has-text-centered">↓ Aŭtomata x-igo por via teksto ↓</h1>
+  <textarea class="textarea mt-1" x-ref="toX" @keyup="$refs.toX.value = toX($refs.toX.value)">-skribu ĉi tie-</textarea>
+
+  <div class="title has-text-centered mt-3"><a href="xigi.html">Uzu ĉi tiun se vi volas premi butonojn</a></div>
+</div>
+  </div>
+  </body>
+</html>

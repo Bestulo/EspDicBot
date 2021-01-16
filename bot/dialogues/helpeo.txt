@@ -1,0 +1,9 @@
+Saluton! Mi estas *EspDicBot*. Vi povas serĉi tra mi en la *EspDic*.
+
+Por serĉi de la angla al Esperanto, uzu la komandon \`\/eneo\` + \`vorto\`. Ekzemple:
+\/eneo hatchet
+
+Por serĉi de Esperanto al la angla, uzu la komandon \`\/eoen\` + \`vorto\`. Ekzemple:
+\/eoen hundaĉo
+
+Se vi trovas eraron (bug ktp) aŭ plibonigeblaĵon, bonvolu kontakti @Bestulo.

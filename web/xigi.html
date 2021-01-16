@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
+    <script src="./xigi.js" defer></script>
+  </head>
+  <body>
+<div class="container">
+<div x-data class="is-flex is-flex-direction-column">
+  <h1 class="title mt-5 has-text-centered">↓ Skribu x-sisteme kaj premu <u>Esperantiĝi</u> ↓</h1>
+  <textarea class="textarea mt-1" x-ref="xhSistemo">-skribu cxi tie-</textarea>
+  <button class="button is-link is-large is-align-self-flex-center mt-1" @click="$refs.special.value = toSpecial($refs.xhSistemo.value)">Esperantiĝi</button>
+  <textarea class="textarea mt-1" x-ref="special">-vidu ĉi tie-</textarea>
+
+  <h1 class="title has-text-centered mt-5">↓ Skribu esperante kaj premu <u>X-igi</u> ↓</h1>
+  <textarea class="textarea mt-1" x-ref="esperanto">-skribu ĉi tie-</textarea>
+  <button class="button is-danger is-large is-align-self-flex-center mt-1" @click="$refs.xiga.value = toX($refs.esperanto.value)">X-igi</button>
+  <textarea class="textarea mt-1" x-ref="xiga">-vidu cxi tie-</textarea>
+  
+  <div class="title has-text-centered mt-5"><a href="xigilive.html">Uzu ĉi tiun se vi ne volas premi butonojn</a></div>
+</div>
+  </div>
+  </body>
+</html>
